@@ -72,7 +72,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PizzaBuilder.vb" />
+    <Compile Include="Core\PizzaBuilder.vb" />
     <Compile Include="PizzaBuilderForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +95,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Core\PizzaBuilderPriceList.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PizzaBuilderForm.resx">
